@@ -1,0 +1,6977 @@
+{
+  "type": "FeatureCollection",
+  "name": "NPK Kampboekje Wegwijzer",
+  "source": "https://kampboekje.netlify.app/wegwijzer",
+  "extractedAt": "2026-05-21T11:08:03.718Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2441709465278725,
+          53.396178746080025
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/welpen_RGB.png",
+        "size": 100,
+        "speltak": "Welpen",
+        "naam": "Welpen",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-1"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.241849,
+              53.396022
+            ],
+            [
+              6.242541,
+              53.397174
+            ],
+            [
+              6.244381,
+              53.397529
+            ],
+            [
+              6.246162,
+              53.396809
+            ],
+            [
+              6.246317,
+              53.395651
+            ],
+            [
+              6.244815,
+              53.394818
+            ],
+            [
+              6.242858,
+              53.394981
+            ],
+            [
+              6.241849,
+              53.396022
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Welpen",
+        "minzoom": 15.2,
+        "color": "#009036",
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-2"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.244612,
+              53.398671
+            ],
+            [
+              6.243925,
+              53.399548
+            ],
+            [
+              6.244655,
+              53.399919
+            ],
+            [
+              6.24591,
+              53.399285
+            ],
+            [
+              6.246704,
+              53.398473
+            ],
+            [
+              6.245985,
+              53.398095
+            ],
+            [
+              6.244998,
+              53.398396
+            ],
+            [
+              6.244805,
+              53.398524
+            ],
+            [
+              6.244612,
+              53.398671
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Bevers",
+        "minzoom": 15.2,
+        "color": "#e2001a",
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-3"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245373620913673,
+          53.39892449840689
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/bevers_RGB.png",
+        "size": 60,
+        "speltak": "Bevers",
+        "naam": "Bevers",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-4"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.247106,
+              53.400068
+            ],
+            [
+              6.247804,
+              53.401045
+            ],
+            [
+              6.249382,
+              53.401443
+            ],
+            [
+              6.251005,
+              53.401045
+            ],
+            [
+              6.251661,
+              53.400078
+            ],
+            [
+              6.251011,
+              53.399125
+            ],
+            [
+              6.249822,
+              53.398892
+            ],
+            [
+              6.248925,
+              53.398901
+            ],
+            [
+              6.247755,
+              53.399119
+            ],
+            [
+              6.247106,
+              53.400068
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Scouts",
+        "minzoom": 15.2,
+        "color": "#f29400",
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-5"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.251156,
+              53.398812
+            ],
+            [
+              6.251489,
+              53.399113
+            ],
+            [
+              6.251639,
+              53.399413
+            ],
+            [
+              6.252143,
+              53.399535
+            ],
+            [
+              6.252766,
+              53.399944
+            ],
+            [
+              6.253839,
+              53.399292
+            ],
+            [
+              6.252208,
+              53.398294
+            ],
+            [
+              6.251156,
+              53.398812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Proefveld",
+        "minzoom": 15.5,
+        "color": "#000000",
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-6"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.256242,
+              53.397686
+            ],
+            [
+              6.25725,
+              53.398492
+            ],
+            [
+              6.257665,
+              53.399176
+            ],
+            [
+              6.256573,
+              53.399846
+            ],
+            [
+              6.254979,
+              53.399855
+            ],
+            [
+              6.253804,
+              53.39914
+            ],
+            [
+              6.253826,
+              53.398132
+            ],
+            [
+              6.25499,
+              53.397446
+            ],
+            [
+              6.256242,
+              53.397686
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Explorers",
+        "minzoom": 15.2,
+        "color": "#e2001a",
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-7"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.255693778209853,
+          53.398705825543026
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/explorers_RGB.png",
+        "size": 100,
+        "speltak": "Explorers",
+        "naam": "Explorers",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-8"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.251258,
+              53.395799
+            ],
+            [
+              6.25003,
+              53.39656
+            ],
+            [
+              6.250507,
+              53.396832
+            ],
+            [
+              6.251162,
+              53.397056
+            ],
+            [
+              6.25172,
+              53.397145
+            ],
+            [
+              6.25231,
+              53.397164
+            ],
+            [
+              6.252916,
+              53.397107
+            ],
+            [
+              6.253495,
+              53.396973
+            ],
+            [
+              6.253833,
+              53.396842
+            ],
+            [
+              6.254139,
+              53.396688
+            ],
+            [
+              6.2546,
+              53.396352
+            ],
+            [
+              6.254364,
+              53.396237
+            ],
+            [
+              6.25261,
+              53.395706
+            ],
+            [
+              6.252471,
+              53.395799
+            ],
+            [
+              6.252315,
+              53.395872
+            ],
+            [
+              6.252127,
+              53.395927
+            ],
+            [
+              6.251931,
+              53.395943
+            ],
+            [
+              6.251757,
+              53.395943
+            ],
+            [
+              6.25158,
+              53.395914
+            ],
+            [
+              6.251414,
+              53.395866
+            ],
+            [
+              6.251258,
+              53.395799
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "PiVo",
+        "naam": "Pivo's",
+        "minzoom": 14,
+        "color": "#93117e",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-9"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.248066,
+              53.397731
+            ],
+            [
+              6.248104,
+              53.397884
+            ],
+            [
+              6.248172,
+              53.398024
+            ],
+            [
+              6.248308,
+              53.398102
+            ],
+            [
+              6.248447,
+              53.398041
+            ],
+            [
+              6.248538,
+              53.398092
+            ],
+            [
+              6.248431,
+              53.398169
+            ],
+            [
+              6.248587,
+              53.398217
+            ],
+            [
+              6.248806,
+              53.398262
+            ],
+            [
+              6.249042,
+              53.398259
+            ],
+            [
+              6.249279,
+              53.398214
+            ],
+            [
+              6.249472,
+              53.398127
+            ],
+            [
+              6.249633,
+              53.397993
+            ],
+            [
+              6.24972,
+              53.397861
+            ],
+            [
+              6.249734,
+              53.397744
+            ],
+            [
+              6.249568,
+              53.397737
+            ],
+            [
+              6.249568,
+              53.397673
+            ],
+            [
+              6.249708,
+              53.397648
+            ],
+            [
+              6.249713,
+              53.397616
+            ],
+            [
+              6.249622,
+              53.397494
+            ],
+            [
+              6.24945,
+              53.397376
+            ],
+            [
+              6.249144,
+              53.397273
+            ],
+            [
+              6.248903,
+              53.397251
+            ],
+            [
+              6.248651,
+              53.397273
+            ],
+            [
+              6.248354,
+              53.397381
+            ],
+            [
+              6.248131,
+              53.397561
+            ],
+            [
+              6.248292,
+              53.397593
+            ],
+            [
+              6.24826,
+              53.39766
+            ],
+            [
+              6.248083,
+              53.397648
+            ],
+            [
+              6.248066,
+              53.397731
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Middenterrein",
+        "minzoom": 14,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-10"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.241297,
+              53.397782
+            ],
+            [
+              6.240969,
+              53.397708
+            ],
+            [
+              6.240712,
+              53.397699
+            ],
+            [
+              6.240422,
+              53.397804
+            ],
+            [
+              6.240138,
+              53.397951
+            ],
+            [
+              6.241643,
+              53.398729
+            ],
+            [
+              6.2423,
+              53.398332
+            ],
+            [
+              6.241297,
+              53.397782
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Bronbeek",
+        "naam": "Bronbeek",
+        "minzoom": 14,
+        "color": "#93117e",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-11"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2494422653077075,
+          53.40002306668298
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/scouts_RGB.png",
+        "size": 100,
+        "speltak": "Scouts",
+        "naam": "Scouts",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-12"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.248817,
+              53.400491
+            ],
+            [
+              6.249311,
+              53.400616
+            ],
+            [
+              6.249295,
+              53.401425
+            ],
+            [
+              6.247852,
+              53.401057
+            ],
+            [
+              6.248817,
+              53.400491
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Subkamp 3",
+        "minzoom": 16,
+        "color": "#ffdd00",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-13"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.249461,
+              53.400622
+            ],
+            [
+              6.249971,
+              53.400491
+            ],
+            [
+              6.250904,
+              53.40107
+            ],
+            [
+              6.249467,
+              53.401425
+            ],
+            [
+              6.249461,
+              53.400622
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Subkamp 4",
+        "minzoom": 16,
+        "color": "#000000",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-14"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.250083,
+              53.400424
+            ],
+            [
+              6.250287,
+              53.40011
+            ],
+            [
+              6.25163,
+              53.400122
+            ],
+            [
+              6.251033,
+              53.401
+            ],
+            [
+              6.250083,
+              53.400424
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Subkamp 5",
+        "minzoom": 16,
+        "color": "#009036",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-15"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.250073,
+              53.399707
+            ],
+            [
+              6.251011,
+              53.399125
+            ],
+            [
+              6.251634,
+              53.40003
+            ],
+            [
+              6.250293,
+              53.40003
+            ],
+            [
+              6.250073,
+              53.399707
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Subkamp 6",
+        "minzoom": 16,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-16"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.247128,
+              53.400101
+            ],
+            [
+              6.248474,
+              53.400101
+            ],
+            [
+              6.248689,
+              53.400411
+            ],
+            [
+              6.247755,
+              53.400971
+            ],
+            [
+              6.247128,
+              53.400101
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Subkamp 2",
+        "minzoom": 16,
+        "color": "#f29400",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-17"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.247138,
+              53.400021
+            ],
+            [
+              6.248485,
+              53.400027
+            ],
+            [
+              6.248699,
+              53.399704
+            ],
+            [
+              6.247755,
+              53.399119
+            ],
+            [
+              6.247138,
+              53.400021
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Subkamp 1",
+        "minzoom": 16,
+        "color": "#e2001a",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-18"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.24981,
+              53.399579
+            ],
+            [
+              6.250073,
+              53.399707
+            ],
+            [
+              6.251011,
+              53.399125
+            ],
+            [
+              6.249822,
+              53.398892
+            ],
+            [
+              6.24981,
+              53.399579
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Kort parkeren 4-5-6",
+        "minzoom": 15.5,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-19"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.247755,
+              53.399119
+            ],
+            [
+              6.248699,
+              53.399704
+            ],
+            [
+              6.248935,
+              53.399576
+            ],
+            [
+              6.248925,
+              53.398901
+            ],
+            [
+              6.247755,
+              53.399119
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Kort parkeren 1-2-3",
+        "minzoom": 15.5,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-20"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.248935,
+              53.399576
+            ],
+            [
+              6.24981,
+              53.399579
+            ],
+            [
+              6.249822,
+              53.398892
+            ],
+            [
+              6.248925,
+              53.398901
+            ],
+            [
+              6.248935,
+              53.399576
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Scoutsstaf",
+        "minzoom": 16,
+        "color": "#f29400",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-21"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250520173777789,
+          53.399544145453646
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Fivel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Delfzijl",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-22"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.251087784965802,
+          53.40018303475585
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Andromeda",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Franeker",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-23"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248352995642335,
+          53.397523958029005
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/brandweer.svg",
+        "size": 30,
+        "speltak": "Middenterrein",
+        "naam": "Brandweer",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-24"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248531168781768,
+          53.39741051728321
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/ehbo.svg",
+        "size": 30,
+        "speltak": "Middenterrein",
+        "naam": "Aortastam",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-25"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.242825,
+              53.395025
+            ],
+            [
+              6.24371,
+              53.395847
+            ],
+            [
+              6.243485,
+              53.396061
+            ],
+            [
+              6.241913,
+              53.395975
+            ],
+            [
+              6.242825,
+              53.395025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Subkamp 4",
+        "minzoom": 16,
+        "color": "#93117e",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-26"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.24474,
+              53.394826
+            ],
+            [
+              6.244263,
+              53.395738
+            ],
+            [
+              6.243829,
+              53.395776
+            ],
+            [
+              6.242957,
+              53.394981
+            ],
+            [
+              6.24474,
+              53.394826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Subkamp 3",
+        "minzoom": 16,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-27"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.246248,
+              53.39561
+            ],
+            [
+              6.244757,
+              53.395936
+            ],
+            [
+              6.244435,
+              53.395767
+            ],
+            [
+              6.244901,
+              53.394869
+            ],
+            [
+              6.246248,
+              53.39561
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Subkamp 2",
+        "minzoom": 16,
+        "color": "#009036",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-28"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.246173,
+              53.396781
+            ],
+            [
+              6.244805,
+              53.396289
+            ],
+            [
+              6.244821,
+              53.396029
+            ],
+            [
+              6.246318,
+              53.395696
+            ],
+            [
+              6.246173,
+              53.396781
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Subkamp 1",
+        "minzoom": 16,
+        "color": "#e2001a",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-29"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.242609,
+              53.397188
+            ],
+            [
+              6.243689,
+              53.39649
+            ],
+            [
+              6.244097,
+              53.396567
+            ],
+            [
+              6.244328,
+              53.39752
+            ],
+            [
+              6.242609,
+              53.397188
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Subkamp 6",
+        "minzoom": 16,
+        "color": "#f29400",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-30"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.241887,
+              53.396045
+            ],
+            [
+              6.243458,
+              53.396135
+            ],
+            [
+              6.243598,
+              53.396384
+            ],
+            [
+              6.242509,
+              53.397069
+            ],
+            [
+              6.241887,
+              53.396045
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Subkamp 5",
+        "minzoom": 16,
+        "color": "#ffdd00",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-31"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.246317,
+              53.395648
+            ],
+            [
+              6.248249,
+              53.396771
+            ],
+            [
+              6.245867,
+              53.397486
+            ],
+            [
+              6.245327,
+              53.397144
+            ],
+            [
+              6.246162,
+              53.396806
+            ],
+            [
+              6.246317,
+              53.395648
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Kort parkeren 1-2-3",
+        "minzoom": 15.5,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-32"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.245867,
+              53.397486
+            ],
+            [
+              6.245335,
+              53.397141
+            ],
+            [
+              6.244381,
+              53.397526
+            ],
+            [
+              6.242541,
+              53.397171
+            ],
+            [
+              6.244086,
+              53.397993
+            ],
+            [
+              6.245867,
+              53.397486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Kort parkeren 4-5-6",
+        "minzoom": 15.5,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-33"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.236742267977849,
+          53.40124431787015
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/square-parking-solid.svg",
+        "size": 50,
+        "speltak": "Algemeen",
+        "naam": "Parkeren",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-34"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.237425,
+              53.400104
+            ],
+            [
+              6.23876,
+              53.400806
+            ],
+            [
+              6.241984,
+              53.398927
+            ],
+            [
+              6.242102,
+              53.398978
+            ],
+            [
+              6.23885,
+              53.400856
+            ],
+            [
+              6.240096,
+              53.401507
+            ],
+            [
+              6.239443,
+              53.402809
+            ],
+            [
+              6.234482,
+              53.402185
+            ],
+            [
+              6.235225,
+              53.400186
+            ],
+            [
+              6.235635,
+              53.399761
+            ],
+            [
+              6.236333,
+              53.399363
+            ],
+            [
+              6.236803,
+              53.399173
+            ],
+            [
+              6.237243,
+              53.399408
+            ],
+            [
+              6.23694,
+              53.399679
+            ],
+            [
+              6.237425,
+              53.400104
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon",
+        "size": 32,
+        "speltak": "Algemeen",
+        "naam": "Parkeren",
+        "minzoom": 14,
+        "color": "#005ea8",
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-35"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.234693797073425,
+          53.40337011595369
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/verzamelpunt.svg",
+        "size": 32,
+        "speltak": "Algemeen",
+        "naam": "Verzamelpunt Noord",
+        "minzoom": 14,
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-36"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25368779200171,
+          53.394522478769616
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/verzamelpunt.svg",
+        "size": 32,
+        "speltak": "Algemeen",
+        "naam": "Verzamelpunt zuid",
+        "minzoom": 14,
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-37"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.257298471548781,
+          53.40052966402228
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/helicopter-symbol-solid.svg",
+        "size": 32,
+        "speltak": "Algemeen",
+        "naam": "Helikopter",
+        "minzoom": 14,
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-38"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248704309514795,
+          53.40151450646829
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/dumpster-solid.svg",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "HUDO leegplaats",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-39"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.251021091193219,
+          53.401067388235845
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/person-digging-solid.svg",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Zandbult 4-5",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-40"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249403454924317,
+          53.40147178459987
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/person-digging-solid.svg",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Zandbult 3-4",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-41"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.258305388141767,
+          53.39901977260808
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/dumpster-solid.svg",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "HUDO leegplaats",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-42"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254982956121545,
+          53.396160935081056
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/dumpster-solid.svg",
+        "size": 32,
+        "speltak": "PiVo",
+        "naam": "HUDO leegplaats",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-43"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2513267638070795,
+          53.39531048504691
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/dumpster-solid.svg",
+        "size": 32,
+        "speltak": "PiVo",
+        "naam": "HUDO leegplaats",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-44"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256983859623829,
+          53.3983893540108
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/person-digging-solid.svg",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Zandbult",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-45"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.255998358843248,
+          53.39751832453695
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/person-digging-solid.svg",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Zandbult",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-46"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245014610977376,
+          53.39479509666911
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/person-digging-solid.svg",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Zandbult",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-47"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244150917480334,
+          53.39408906379072
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/dumpster-solid.svg",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "HUDO leegplaats S3",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-48"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242922072760512,
+          53.39755419273503
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/dumpster-solid.svg",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "HUDO leegplaats S6",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-49"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.252084260846854,
+          53.395292709033974
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/person-digging-solid.svg",
+        "size": 32,
+        "speltak": "PiVo",
+        "naam": "Zandbult",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-50"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24893358220263,
+          53.39948029933006
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/faucet-drip-solid.svg",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Water 1-2-3",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-51"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249811668810136,
+          53.39948346128325
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/faucet-drip-solid.svg",
+        "size": 32,
+        "speltak": "Scouts",
+        "naam": "Water 4-5-6",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-52"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250466566100771,
+          53.40017743053772
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "van Maasdijk",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Heerenveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-53"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24825154496978,
+          53.400180628755464
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "de Jutters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-54"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2485824802689445,
+          53.40075867068993
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Judith van Marle vendel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Dedemsvaart",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-55"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.247350511720365,
+          53.399947147521054
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Rangers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Zuidlaren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-56"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250952246956303,
+          53.40083406866348
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "JPG",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-57"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250949240948141,
+          53.39930426266459
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Stanley",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hardenberg",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-58"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.251049843062701,
+          53.39995828190942
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Mensinghe Troep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-59"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249629520515087,
+          53.401269927890596
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Beyloo ter Horst",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beilen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-60"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2473827203488534,
+          53.40019395956775
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Freya",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-61"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248833319580064,
+          53.4006272909138
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Guy de Fontgalland verkenners",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Ter Apel",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-62"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248509317970164,
+          53.400420721959264
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Menkema",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Uithuizen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-63"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250482287449714,
+          53.399965000163434
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Drostengroep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Coevorden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-64"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250660973851268,
+          53.40104727564196
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "St. Vitus",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Winschoten",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-65"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250729300002167,
+          53.39990610316562
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Scouting Vries",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Vries",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-66"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250681048379473,
+          53.40063853154153
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Prometheus",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-67"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.251378291923371,
+          53.399931689754496
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Schotse groep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stadskanaal",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-68"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248292723090172,
+          53.40054833409011
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Woudlopers Kipling",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-69"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249178899334318,
+          53.400885163897705
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Havik",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-70"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249122501306429,
+          53.40125032022254
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Woudlopers Borger",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Borger",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-71"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248396233650696,
+          53.399958735499325
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Struners",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stedum",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-72"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250323554402326,
+          53.39966561806354
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "St.Pancratius M.i. Vendel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Erica",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-73"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248054720218361,
+          53.40069394539357
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Tecumseh",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-74"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250381634779435,
+          53.40048120741817
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Pagista",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stadskanaal",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-75"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249191577446358,
+          53.40071387379565
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Ter Stege",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogeveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-76"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.251434615576394,
+          53.400187505605196
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Impeesa",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Pekela",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-77"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250226046361288,
+          53.400770034176695
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Ba-Ow",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beetsterzwaag",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-78"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2507502885664135,
+          53.399418240782424
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Voerman",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-79"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248077275709796,
+          53.399942555407776
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Guy de Fontgalland gidsen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Ter Apel",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-80"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2496097608043035,
+          53.40087314789994
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Nahani",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogeveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-81"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250750863621776,
+          53.400189020250046
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "van Swieten",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Vledder",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-82"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2478064274835905,
+          53.39931585195526
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Vinchem",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Winsum",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-83"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248348146911104,
+          53.40090865026515
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Mensinghe Vendel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-84"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.247823577574815,
+          53.40080863332167
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "St. George",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-85"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250450801055901,
+          53.400913401930175
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Look Wide",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-86"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2496261226356316,
+          53.40105865142348
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "St.Pancratius M.i. Troep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Erica",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-87"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.250028874130227,
+          53.400634503366994
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Fraeylema Troep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Slochteren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-88"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24805005880119,
+          53.399435897403116
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Fraeylema Vendel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Slochteren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-89"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.247708427549622,
+          53.39995430255363
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Zwervers Groningen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-90"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2481121660084895,
+          53.401033569955985
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Hunen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Emmen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-91"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.247810097919465,
+          53.400185230795636
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Trekvogels",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren/Paterswolde",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-92"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249163695062636,
+          53.401071722590146
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Trappers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogezand-Sappemeer",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-93"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248298323482166,
+          53.39956241078695
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Nienoord",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leek",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-94"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249628419317875,
+          53.400671930740536
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Zwervers Assen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-95"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.236027142698334,
+          53.39622741182833
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/npkpoort.png",
+        "size": 40,
+        "speltak": "Algemeen",
+        "naam": "NPK Poort",
+        "minzoom": 14,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-96"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.253915,
+              53.39808
+            ],
+            [
+              6.25499,
+              53.397446
+            ],
+            [
+              6.255458,
+              53.398115
+            ],
+            [
+              6.255024,
+              53.398377
+            ],
+            [
+              6.253915,
+              53.39808
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Subkamp 1",
+        "minzoom": 16,
+        "color": "#e2001a",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-97"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.255464,
+              53.399164
+            ],
+            [
+              6.256075,
+              53.399154
+            ],
+            [
+              6.256526,
+              53.399842
+            ],
+            [
+              6.255035,
+              53.399855
+            ],
+            [
+              6.255464,
+              53.399164
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Subkamp 4",
+        "minzoom": 16,
+        "color": "#000000",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-98"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.25386,
+              53.39917
+            ],
+            [
+              6.254981,
+              53.398879
+            ],
+            [
+              6.255405,
+              53.399148
+            ],
+            [
+              6.254933,
+              53.399832
+            ],
+            [
+              6.25386,
+              53.39917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Subkamp 3",
+        "minzoom": 16,
+        "color": "#ff00ff",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-99"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.253811,
+              53.399106
+            ],
+            [
+              6.253825,
+              53.398191
+            ],
+            [
+              6.254954,
+              53.398476
+            ],
+            [
+              6.254959,
+              53.398834
+            ],
+            [
+              6.253811,
+              53.399106
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Subkamp 2",
+        "minzoom": 16,
+        "color": "#ffdd00",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-100"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.256139,
+              53.399147
+            ],
+            [
+              6.256553,
+              53.398885
+            ],
+            [
+              6.257665,
+              53.399176
+            ],
+            [
+              6.256622,
+              53.399822
+            ],
+            [
+              6.256139,
+              53.399147
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "Subkamp 5",
+        "minzoom": 16,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-101"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.244998,
+              53.398396
+            ],
+            [
+              6.245218,
+              53.398578
+            ],
+            [
+              6.246204,
+              53.39821
+            ],
+            [
+              6.245985,
+              53.398095
+            ],
+            [
+              6.244998,
+              53.398396
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Subkamp Oranje",
+        "minzoom": 16,
+        "color": "#f29400",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-102"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.244612,
+              53.398671
+            ],
+            [
+              6.243925,
+              53.399548
+            ],
+            [
+              6.244185,
+              53.39968
+            ],
+            [
+              6.244891,
+              53.398844
+            ],
+            [
+              6.244612,
+              53.398671
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Subkamp Geel",
+        "minzoom": 16,
+        "color": "#ffdd00",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-103"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.244425,
+              53.399801
+            ],
+            [
+              6.244655,
+              53.399919
+            ],
+            [
+              6.245781,
+              53.39935
+            ],
+            [
+              6.245545,
+              53.399176
+            ],
+            [
+              6.244425,
+              53.399801
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Subkamp Blauw",
+        "minzoom": 16,
+        "color": "#005ea8",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-104"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.245738,
+              53.399065
+            ],
+            [
+              6.245985,
+              53.399209
+            ],
+            [
+              6.246704,
+              53.398473
+            ],
+            [
+              6.246462,
+              53.398346
+            ],
+            [
+              6.245738,
+              53.399065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Subkamp Groen",
+        "minzoom": 16,
+        "color": "#009036",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-105"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.236173,
+            53.396336
+          ],
+          [
+            6.237675,
+            53.396603
+          ],
+          [
+            6.237941,
+            53.396707
+          ],
+          [
+            6.238267,
+            53.396671
+          ],
+          [
+            6.238737,
+            53.396653
+          ],
+          [
+            6.239314,
+            53.394993
+          ],
+          [
+            6.239496,
+            53.39469
+          ],
+          [
+            6.239693,
+            53.394486
+          ],
+          [
+            6.240095,
+            53.394274
+          ],
+          [
+            6.240603,
+            53.394093
+          ],
+          [
+            6.241672,
+            53.393867
+          ],
+          [
+            6.242669,
+            53.3937
+          ],
+          [
+            6.242905,
+            53.393688
+          ],
+          [
+            6.243699,
+            53.393707
+          ],
+          [
+            6.245244,
+            53.39379
+          ],
+          [
+            6.247722,
+            53.394065
+          ],
+          [
+            6.248644,
+            53.394187
+          ],
+          [
+            6.248988,
+            53.394263
+          ],
+          [
+            6.24946,
+            53.394455
+          ],
+          [
+            6.250736,
+            53.395172
+          ],
+          [
+            6.251498,
+            53.395575
+          ],
+          [
+            6.249653,
+            53.396726
+          ],
+          [
+            6.249257,
+            53.396989
+          ],
+          [
+            6.249772,
+            53.397251
+          ],
+          [
+            6.250148,
+            53.39759
+          ],
+          [
+            6.250266,
+            53.397935
+          ],
+          [
+            6.250202,
+            53.398255
+          ],
+          [
+            6.250073,
+            53.398441
+          ],
+          [
+            6.249944,
+            53.398607
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polyline",
+        "iconpath": "/wegwijzer-icons/bevers_RGB.png",
+        "size": 40,
+        "speltak": "Scouts",
+        "naam": "aanrijroute",
+        "minzoom": 14,
+        "color": "#f29400",
+        "isSearchable": false,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-106"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.236173,
+            53.396336
+          ],
+          [
+            6.237675,
+            53.396603
+          ],
+          [
+            6.237941,
+            53.396707
+          ],
+          [
+            6.238267,
+            53.396671
+          ],
+          [
+            6.238737,
+            53.396653
+          ],
+          [
+            6.239314,
+            53.394993
+          ],
+          [
+            6.239496,
+            53.39469
+          ],
+          [
+            6.239693,
+            53.394486
+          ],
+          [
+            6.240095,
+            53.394274
+          ],
+          [
+            6.240603,
+            53.394093
+          ],
+          [
+            6.241672,
+            53.393867
+          ],
+          [
+            6.242669,
+            53.3937
+          ],
+          [
+            6.242905,
+            53.393688
+          ],
+          [
+            6.243699,
+            53.393707
+          ],
+          [
+            6.245244,
+            53.39379
+          ],
+          [
+            6.247722,
+            53.394065
+          ],
+          [
+            6.248644,
+            53.394187
+          ],
+          [
+            6.248988,
+            53.394263
+          ],
+          [
+            6.24946,
+            53.394455
+          ],
+          [
+            6.250736,
+            53.395172
+          ],
+          [
+            6.251498,
+            53.395575
+          ],
+          [
+            6.249653,
+            53.396726
+          ],
+          [
+            6.249257,
+            53.396989
+          ],
+          [
+            6.249772,
+            53.397251
+          ],
+          [
+            6.250319,
+            53.397436
+          ],
+          [
+            6.251028,
+            53.397622
+          ],
+          [
+            6.25165,
+            53.397763
+          ],
+          [
+            6.252379,
+            53.397903
+          ],
+          [
+            6.253173,
+            53.398019
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polyline",
+        "iconpath": "/wegwijzer-icons/bevers_RGB.png",
+        "size": 60,
+        "speltak": "Explorers",
+        "naam": "aanrijroute",
+        "minzoom": 14,
+        "color": "#e2001a",
+        "isSearchable": false,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-107"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.236173,
+            53.396336
+          ],
+          [
+            6.237675,
+            53.396603
+          ],
+          [
+            6.237941,
+            53.396707
+          ],
+          [
+            6.238267,
+            53.396671
+          ],
+          [
+            6.238737,
+            53.396653
+          ],
+          [
+            6.239314,
+            53.394993
+          ],
+          [
+            6.239496,
+            53.39469
+          ],
+          [
+            6.239693,
+            53.394486
+          ],
+          [
+            6.240095,
+            53.394274
+          ],
+          [
+            6.240603,
+            53.394093
+          ],
+          [
+            6.241672,
+            53.393867
+          ],
+          [
+            6.242669,
+            53.3937
+          ],
+          [
+            6.242905,
+            53.393688
+          ],
+          [
+            6.243699,
+            53.393707
+          ],
+          [
+            6.245244,
+            53.39379
+          ],
+          [
+            6.247722,
+            53.394065
+          ],
+          [
+            6.248644,
+            53.394187
+          ],
+          [
+            6.248988,
+            53.394263
+          ],
+          [
+            6.24946,
+            53.394455
+          ],
+          [
+            6.250736,
+            53.395172
+          ],
+          [
+            6.251498,
+            53.395575
+          ],
+          [
+            6.249653,
+            53.396726
+          ],
+          [
+            6.249247,
+            53.396989
+          ],
+          [
+            6.248732,
+            53.397123
+          ],
+          [
+            6.247728,
+            53.397182
+          ],
+          [
+            6.247212,
+            53.397074
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polyline",
+        "iconpath": "/wegwijzer-icons/bevers_RGB.png",
+        "size": 20,
+        "speltak": "Welpen",
+        "naam": "aanrijroute",
+        "minzoom": 14,
+        "color": "#009036",
+        "isSearchable": false,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-108"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.236173,
+            53.396336
+          ],
+          [
+            6.237675,
+            53.396603
+          ],
+          [
+            6.237941,
+            53.396707
+          ],
+          [
+            6.238267,
+            53.396671
+          ],
+          [
+            6.238737,
+            53.396653
+          ],
+          [
+            6.239314,
+            53.394993
+          ],
+          [
+            6.239496,
+            53.39469
+          ],
+          [
+            6.239693,
+            53.394486
+          ],
+          [
+            6.240095,
+            53.394274
+          ],
+          [
+            6.240603,
+            53.394093
+          ],
+          [
+            6.241672,
+            53.393867
+          ],
+          [
+            6.242669,
+            53.3937
+          ],
+          [
+            6.242905,
+            53.393688
+          ],
+          [
+            6.243699,
+            53.393707
+          ],
+          [
+            6.245244,
+            53.39379
+          ],
+          [
+            6.247722,
+            53.394065
+          ],
+          [
+            6.248644,
+            53.394187
+          ],
+          [
+            6.248988,
+            53.394263
+          ],
+          [
+            6.24946,
+            53.394455
+          ],
+          [
+            6.250736,
+            53.395172
+          ],
+          [
+            6.251498,
+            53.395575
+          ],
+          [
+            6.249653,
+            53.396726
+          ],
+          [
+            6.249247,
+            53.396989
+          ],
+          [
+            6.248431,
+            53.397178
+          ],
+          [
+            6.247606,
+            53.397508
+          ],
+          [
+            6.247045,
+            53.397834
+          ],
+          [
+            6.246425,
+            53.398182
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polyline",
+        "iconpath": "/wegwijzer-icons/bevers_RGB.png",
+        "size": 1,
+        "speltak": "Bevers",
+        "naam": "aanrijroute",
+        "minzoom": 14,
+        "color": "#e2001a",
+        "isSearchable": false,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-109"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.249075,
+            53.398612
+          ],
+          [
+            6.247953,
+            53.398485
+          ],
+          [
+            6.247012,
+            53.398123
+          ],
+          [
+            6.246055,
+            53.397804
+          ],
+          [
+            6.244828,
+            53.39796
+          ],
+          [
+            6.243827,
+            53.398268
+          ],
+          [
+            6.24325,
+            53.398449
+          ],
+          [
+            6.242613,
+            53.398467
+          ],
+          [
+            6.241885,
+            53.398051
+          ],
+          [
+            6.241369,
+            53.397761
+          ],
+          [
+            6.240581,
+            53.397689
+          ],
+          [
+            6.238942,
+            53.398485
+          ],
+          [
+            6.237911,
+            53.399137
+          ],
+          [
+            6.237304,
+            53.399245
+          ],
+          [
+            6.236849,
+            53.399155
+          ],
+          [
+            6.23697,
+            53.398901
+          ],
+          [
+            6.237365,
+            53.39834
+          ],
+          [
+            6.237668,
+            53.397743
+          ],
+          [
+            6.237941,
+            53.397182
+          ],
+          [
+            6.238457,
+            53.396947
+          ],
+          [
+            6.238791,
+            53.396802
+          ],
+          [
+            6.238548,
+            53.396585
+          ],
+          [
+            6.237911,
+            53.39664
+          ],
+          [
+            6.237122,
+            53.396531
+          ],
+          [
+            6.236173,
+            53.396336
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polyline",
+        "iconpath": "/wegwijzer-icons/bevers_RGB.png",
+        "size": 1,
+        "speltak": "Algemeen",
+        "naam": "uitrijroute",
+        "minzoom": 14,
+        "color": "#005ea8",
+        "isSearchable": false,
+        "zichtbaar": "tijdensOpbouw",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-110"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.252117325514976,
+          53.415287293002166
+        ]
+      },
+      "properties": {
+        "type": "icon",
+        "iconpath": "/wegwijzer-icons/noicon.png",
+        "size": 1,
+        "speltak": "Algemeen",
+        "naam": "Zeedijk",
+        "minzoom": 14,
+        "isSearchable": false,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-111"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25677681134107,
+          53.398555989411626
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Explorers",
+        "naam": "De Zeef",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-112"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.252013141686531,
+          53.39561569835538
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "PiVo",
+        "naam": "De Kruk",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-113"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245739059666893,
+          53.39919667782005
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "De Blije Bever",
+        "minzoom": 16.5,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-114"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248800869607198,
+          53.39735013480923
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Nexus (verbindingen)",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-115"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2492353314907065,
+          53.39740451091849
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Centrale Keuken",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-116"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249487426657686,
+          53.397558043201144
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "'t Seepeert",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-117"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249551791381201,
+          53.39783951756436
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "ScoutShop",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-118"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2495088815655375,
+          53.39794187143114
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Financien",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-119"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249385515845537,
+          53.3980474235803
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Centrale Staf",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-120"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2491709667672755,
+          53.39813698278007
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Pinkster- blom",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-121"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248892052965421,
+          53.39818176231296
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "@- stam",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-122"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24866141270625,
+          53.39814657842225
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Foto- stam",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-123"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248339589088892,
+          53.39800264400659
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Time travel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-124"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248302043000137,
+          53.39791948153744
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Swoptent",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-125"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248259133184476,
+          53.39783631902765
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Brand- stempel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-126"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2482644969113785,
+          53.397746759276075
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "Kamppost",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-127"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244643979141991,
+          53.399806587665395
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Fraeylema",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Slochteren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-128"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244826345858559,
+          53.399726627240085
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "van Maasdijk",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Heerenveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-129"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24501407630207,
+          53.399627476157875
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Menkema",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Uithuizen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-130"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245373444254386,
+          53.399416379551106
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Beyloo ter Horst",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beilen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-131"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245534357816941,
+          53.39933641843559
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "van Swieten",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Vledder",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-132"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245936637338754,
+          53.39908374022494
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Nienoord",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leek",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-133"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2460063657892055,
+          53.39900377839927
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Havik",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-134"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.246129731509204,
+          53.398891831675
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "St.Pancratius M.i.",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Erica",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-135"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.246344280587468,
+          53.39867753275799
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Emmen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Emmen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-136"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.246403281584036,
+          53.39857837925678
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Veendam",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-137"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.246526647304035,
+          53.39848562233357
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Guy de Fontgalland",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Ter Apel",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-138"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.246017191003611,
+          53.39816576962996
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Pekela",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Pekela",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-139"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2457289915382,
+          53.398273427035136
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Rangers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Zuidlaren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-140"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24553982782307,
+          53.39839286516224
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Fivel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Delfzijl",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-141"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24531991075855,
+          53.39838326962753
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Stanley",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hardenberg",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-142"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245212634610024,
+          53.39846962956691
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Dwaal Bevers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Marnewaard",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-143"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2446816247450645,
+          53.39887264058297
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "de Esdoorn",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leeuwarden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-144"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24458507765986,
+          53.39896859487163
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Tecumseh",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-145"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244515349209444,
+          53.39908054145692
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "St. George",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-146"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244322255038953,
+          53.39930763185641
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Trappers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogezand-Sappemeer",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-147"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24423107168073,
+          53.39942277636975
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "de Jutters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-148"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244151736285955,
+          53.399527755217164
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Mensinghe",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-149"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.244612,
+              53.398671
+            ],
+            [
+              6.244998,
+              53.398396
+            ],
+            [
+              6.245218,
+              53.398578
+            ],
+            [
+              6.244891,
+              53.398844
+            ],
+            [
+              6.244612,
+              53.398671
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon-text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Beverstaf",
+        "minzoom": 16,
+        "color": "#e2001a",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-150"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24609234734804,
+          53.39646091546818
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "St. Vitus",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Winschoten",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-151"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245572104119305,
+          53.396464114204925
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Bevers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Lettelbert",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-152"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245893904054603,
+          53.39657926595177
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "van Swieten",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Vledder",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-153"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245320027503324,
+          53.396377750186865
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Biezenhutters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Oosterwolde",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-154"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2450089542325,
+          53.39627859111597
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "St. George Indus",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-155"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.246038714025497,
+          53.39607387515589
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Dedemsvaart",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Dedemsvaart",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-156"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245909994051378,
+          53.39590114527509
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "van Maasdijk",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Heerenveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-157"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245448747477402,
+          53.39598751020454
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Veendam Kabouters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-158"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245019680896975,
+          53.396077073820074
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Pekela Kabouters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Pekela",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-159"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24493923091314,
+          53.3958115813826
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Beyloo ter Horst",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beilen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-160"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2453039417949965,
+          53.3957380109494
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Ba-Ow",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beetsterzwaag",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-161"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245877797856824,
+          53.39559406843215
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Nienoord",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leek",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-162"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245647190770798,
+          53.39542133662796
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Stadskanaal Pagista",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stadskanaal",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-163"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245293210841989,
+          53.395216616619244
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Trappers Dolfijnen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogezand-Sappemeer",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-164"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244880234258338,
+          53.395235808707056
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Stanley",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hardenberg",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-165"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245604213591062,
+          53.39566124136562
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Bestevaer",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-166"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244628157642358,
+          53.39566124152819
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Ter Stege",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogeveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-167"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244220544390966,
+          53.39554928598887
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Kontiki",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogeveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-168"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244338537700609,
+          53.3953349703512
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "St. George Orion",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-169"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244413624352145,
+          53.39512385223254
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Mensinghe Horde 1",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-170"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2441186410781375,
+          53.394979907081066
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Fraeylema Welpen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Slochteren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-171"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243635941175172,
+          53.3950246901398
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Woudlopers Kipling",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-172"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243394591223705,
+          53.39518143002677
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Rangers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Zuidlaren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-173"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243893374578627,
+          53.395648051169
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Veendam Rimboehorde 1",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-174"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243603347245216,
+          53.39537975287215
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Havik",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-175"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243475035489597,
+          53.395776395640304
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Veendam Rimboehorde 2",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-176"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243056717492634,
+          53.39544372773413
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "de Jutters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-177"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24257404475006,
+          53.39547571522894
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Stadskanaal Horde",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stadskanaal",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-178"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243357000248215,
+          53.39598431191621
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "JPG",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-179"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243083470303203,
+          53.39594272882946
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Fraeylema Kabouters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Slochteren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-180"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242847487495909,
+          53.395274193959104
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Zwervers Groningen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-181"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243260506011374,
+          53.39558447209761
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Polaris",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Heerenveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-182"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242697363748598,
+          53.39591074178713
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Guy de Fontgalland",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Ter Apel",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-183"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242300549112883,
+          53.39587875354845
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "de Esdoorn",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leeuwarden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-184"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2431425146077695,
+          53.39619222678373
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Zwervers Assen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-185"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242756354685371,
+          53.39617943199488
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Look Wide",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-186"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242842128452139,
+          53.396681622854324
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "St.Pancratius M.i.",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Erica",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-187"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243399855444449,
+          53.396390544771464
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Trekvogels",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren/Paterswolde",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-188"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242536452344914,
+          53.396783979926816
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Tecumseh",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-189"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.242230811022101,
+          53.39633936612184
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Emmen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Emmen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-190"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2424022858718615,
+          53.396163438596446
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Woudlopers Borger",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Borger",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-191"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2440220644072815,
+          53.39674879458074
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Menkema",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Uithuizen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-192"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24411321389524,
+          53.397177411000364
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Struners",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stedum",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-193"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244140006731629,
+          53.397401312877044
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Vries",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Vries",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-194"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243094227940063,
+          53.39703987007748
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Fivel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Delfzijl",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-195"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.24317470603729,
+          53.39721259562934
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Trappers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogezand-Sappemeer",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-196"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2437753878138915,
+          53.39731175210114
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Mensinghe Kabouters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-197"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243341270840758,
+          53.39685115098794
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Voerman",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-198"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.244048917758904,
+          53.396956705773455
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Pekela Welpen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Pekela",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-199"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243582345496037,
+          53.396662431038926
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Vinchem",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Winsum",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-200"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.245068,
+              53.397248
+            ],
+            [
+              6.245605,
+              53.397031
+            ],
+            [
+              6.245186,
+              53.396744
+            ],
+            [
+              6.244739,
+              53.396947
+            ],
+            [
+              6.245068,
+              53.397248
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "type": "polygon",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Welpenstaf",
+        "minzoom": 16,
+        "color": "#009036",
+        "isSearchable": true,
+        "zichtbaar": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-201"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25529664569542,
+          53.399757400185734
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Hephaestus Veendam",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Veendam",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-202"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254823919250669,
+          53.398524328513766
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "de Jutters",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-203"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256330391105211,
+          53.399187364145384
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "de Brimzen RSA654",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Buitenpost",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-204"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254556044466676,
+          53.39845140580462
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "St. Vitus",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Winschoten",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-205"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254886502677034,
+          53.39964791665072
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Stanley",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hardenberg",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-206"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2555310931494725,
+          53.39928935376753
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Voerman",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-207"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256198827422227,
+          53.39960681442223
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Zwervers Assen",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-208"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2564575076586975,
+          53.399345835297574
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "de Esdoorn",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leeuwarden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-209"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256258766847652,
+          53.39975724148249
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Guy de Fontgalland",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Ter Apel",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-210"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.257188208628429,
+          53.39915279124221
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Zwervers Groningen RSA412",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-211"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.255122413908103,
+          53.39788545999457
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "van Maasdijk",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Heerenveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-212"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256777452246799,
+          53.39958017169103
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Veentrappers Pekela",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Pekela",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-213"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2548185549871596,
+          53.39878032595455
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Woudlopers Borger",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Borger",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-214"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2552434281792255,
+          53.39918876390698
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Menkema",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Uithuizen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-215"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254264121650195,
+          53.39890613216297
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Andromeda",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Franeker",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-216"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2566668675292165,
+          53.39898929294198
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Drostengroep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Coevorden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-217"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256076933606863,
+          53.399417886048646
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Look Wide",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-218"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.253990584399428,
+          53.39832080595337
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Rangers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Zuidlaren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-219"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.255427967224788,
+          53.3995330298203
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Hoogeveen RSA322",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogeveen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-220"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2552831708234,
+          53.39807132039177
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "St.Pancratius M.i.",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Erica",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-221"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.255980397238845,
+          53.399257963742116
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Vinchem",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Winsum",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-222"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254639549145527,
+          53.399046864968014
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Woudlopers Kipling",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-223"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254526933060149,
+          53.398848559400115
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "van Swieten",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Vledder",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-224"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254724687308928,
+          53.39820916295219
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Ba-Ow",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beetsterzwaag",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-225"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.257242318695414,
+          53.399290254075765
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Mensinghe Phoenix",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-226"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2542741755761675,
+          53.398388280514695
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Nienoord RSA711",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Leek",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-227"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254922361151422,
+          53.39896678576848
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Stadskanaal SA427",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stadskanaal",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-228"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256564286260459,
+          53.39948535894489
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Tecumseh",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-229"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254381416059061,
+          53.39912393394663
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Trappers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Hoogezand-Sappemeer",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-230"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.256923621567486,
+          53.399072758451034
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Struners",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Stedum",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-231"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254973745718024,
+          53.398286398588446
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Fivel",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Delfzijl",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-232"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.253954720600895,
+          53.39897087790237
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Fraeylema Rowans",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Slochteren",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-233"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25496301378492,
+          53.39772345379029
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Havik",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-234"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254410624768791,
+          53.39810727971838
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Beyloo ter Horst RSA476",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Beilen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-235"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.25501128817045,
+          53.3995018218393
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "JPG RA521",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-236"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254576852897814,
+          53.39782900551822
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Scouting Dedemsvaart RSA581",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Dedemsvaart",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-237"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.254099535252485,
+          53.39919796921083
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "St. George",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-238"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2551346624537585,
+          53.39932910590414
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Explorers",
+        "naam": "Trekvogels",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Haren/Paterswolde",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-239"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245239342311237,
+          53.39949634046703
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "Zwervers",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Groningen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-240"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.245879168877563,
+          53.39821585349002
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Bevers",
+        "naam": "JPG",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Assen",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-241"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2448587828353395,
+          53.395408541277696
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Drostengroep",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Coevorden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-242"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.243126351363106,
+          53.39651209398656
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Welpen",
+        "naam": "Mensinghe Horde 2",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Roden",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-243"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.248528963741338,
+          53.39969994312164
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 1,
+        "speltak": "Scouts",
+        "naam": "Hannie Schaft",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "Almere",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-244"
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.249852160090824,
+          53.39692471906644
+        ]
+      },
+      "properties": {
+        "type": "text",
+        "size": 32,
+        "speltak": "Middenterrein",
+        "naam": "NPK Materiaalbeheer",
+        "minzoom": 17,
+        "isSearchable": true,
+        "zichtbaar": "",
+        "plaats": "",
+        "source": "NPK Kampboekje Wegwijzer"
+      },
+      "id": "wegwijzer-245"
+    }
+  ]
+}
