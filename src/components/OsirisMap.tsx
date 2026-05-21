@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback, memo } from 'react';
 import maplibregl from 'maplibre-gl';
+import type { ExpressionSpecification } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 interface OsirisMapProps {
@@ -37,6 +38,20 @@ function computeSolarTerminator(): [number, number][] {
 }
 
 const EMPTY_FC = { type: 'FeatureCollection' as const, features: [] };
+const WEGWIJZER_CENTER: [number, number] = [6.246, 53.399];
+const WEGWIJZER_SPELTAK_COLOR: ExpressionSpecification = [
+  'match',
+  ['get', 'speltak'],
+  'Welpen', '#009036',
+  'Bevers', '#e2001a',
+  'Scouts', '#005ea8',
+  'Explorers', '#f29400',
+  'PiVo', '#93117e',
+  'Middenterrein', '#ffdd00',
+  'Bronbeek', '#000000',
+  'Algemeen', '#D4AF37',
+  '#D4AF37',
+] as const;
 
 function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightClick, onViewStateChange, flyToLocation, projection = 'globe', mapStyle = 'dark' }: OsirisMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -107,7 +122,7 @@ function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightCl
       createDot(map, 'dot-cctv', '#39FF14', 10);
 
       // Sources
-      const sources = ['flights','military','jets','private-fl','satellites','earthquakes','gdelt','gps-jamming','day-night','cctv','fires','weather','infrastructure','maritime','maritime-choke','maritime-ships','live-news','conflict-zones', 'war-alerts-targets', 'war-alerts-lines', 'balloons', 'radiation'];
+      const sources = ['flights','military','jets','private-fl','satellites','earthquakes','gdelt','gps-jamming','day-night','cctv','fires','weather','infrastructure','maritime','maritime-choke','maritime-ships','live-news','conflict-zones', 'war-alerts-targets', 'war-alerts-lines', 'balloons', 'radiation', 'wegwijzer'];
       sources.forEach(s => map.addSource(s, { type: 'geojson', data: EMPTY_FC }));
 
       // ── CONFLICT ZONES — small warning markers (not polygons) ──
@@ -312,6 +327,44 @@ function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightCl
         'text-offset': [0, 1.8], 'text-max-width': 12, 'text-allow-overlap': false,
       }, paint: { 'text-color': '#FF4081', 'text-halo-color': '#000', 'text-halo-width': 1, 'text-opacity': 0.8 }});
 
+      // NPK Wegwijzer — static camp map overlay extracted from kampboekje
+      map.addLayer({ id: 'wegwijzer-polygons', type: 'fill', source: 'wegwijzer', minzoom: 13.5, filter: ['==', ['geometry-type'], 'Polygon'], paint: {
+        'fill-color': ['case', ['has', 'color'], ['get', 'color'], '#D4AF37'],
+        'fill-opacity': 0.22,
+      }});
+      map.addLayer({ id: 'wegwijzer-polygon-lines', type: 'line', source: 'wegwijzer', minzoom: 13.5, filter: ['==', ['geometry-type'], 'Polygon'], paint: {
+        'line-color': ['case', ['has', 'color'], ['get', 'color'], '#D4AF37'],
+        'line-width': ['interpolate', ['linear'], ['zoom'], 13, 1, 16, 2.5, 18, 4],
+        'line-opacity': 0.9,
+      }});
+      map.addLayer({ id: 'wegwijzer-routes', type: 'line', source: 'wegwijzer', minzoom: 13.5, filter: ['==', ['geometry-type'], 'LineString'], paint: {
+        'line-color': ['case', ['has', 'color'], ['get', 'color'], '#D4AF37'],
+        'line-width': ['interpolate', ['linear'], ['zoom'], 13, 2, 16, 4, 18, 6],
+        'line-opacity': 0.95,
+        'line-dasharray': [2, 1],
+      }});
+      map.addLayer({ id: 'wegwijzer-points', type: 'circle', source: 'wegwijzer', minzoom: 14, filter: ['all', ['==', ['geometry-type'], 'Point'], ['!=', ['get', 'type'], 'text']], paint: {
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 14, 4, 16, 8, 18, 13],
+        'circle-color': WEGWIJZER_SPELTAK_COLOR,
+        'circle-opacity': 0.9,
+        'circle-stroke-width': 2,
+        'circle-stroke-color': '#0C0E1A',
+        'circle-stroke-opacity': 0.85,
+      }});
+      map.addLayer({ id: 'wegwijzer-labels', type: 'symbol', source: 'wegwijzer', minzoom: 15, layout: {
+        'text-field': ['get', 'naam'],
+        'text-size': ['interpolate', ['linear'], ['zoom'], 15, 9, 17, 12],
+        'text-font': ['Open Sans Bold'],
+        'text-offset': [0, 1.35],
+        'text-max-width': 14,
+        'text-allow-overlap': false,
+      }, paint: {
+        'text-color': WEGWIJZER_SPELTAK_COLOR,
+        'text-halo-color': '#000',
+        'text-halo-width': 1.2,
+        'text-opacity': 0.9,
+      }});
+
       // Flight layers (WebGL symbol — GPU rendered, handles 50K+ smooth)
       const flightLayers = [
         { id: 'fl-commercial', src: 'flights', icon: 'plane-cyan' },
@@ -388,6 +441,12 @@ function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightCl
     };
     const pStyle = `background:rgba(12,14,26,0.95);backdrop-filter:blur(16px);border-radius:10px;padding:16px;font-family:'JetBrains Mono',monospace;`;
     const linkStyle = `display:inline-block;margin-top:8px;padding:5px 12px;font-size:10px;letter-spacing:0.12em;text-decoration:none;border-radius:5px;font-family:'JetBrains Mono',monospace;`;
+    const escapeHtml = (value: unknown) => String(value ?? '—')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
 
     // ── Flights (with FlightAware + ADS-B Exchange links) ──
     ['fl-commercial','fl-private','fl-jets','fl-military'].forEach(layer => {
@@ -522,9 +581,31 @@ function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightCl
       </div>`);
     });
 
+    // ── NPK Wegwijzer ──
+    ['wegwijzer-points','wegwijzer-labels','wegwijzer-polygons','wegwijzer-routes'].forEach(layer => {
+      map.on('click', layer, e => {
+        if (!e.features?.length) return;
+        const feature = e.features[0];
+        const p = feature.properties as any;
+        const geometry = feature.geometry as any;
+        const coords = geometry.type === 'Point' ? geometry.coordinates : [e.lngLat.lng, e.lngLat.lat];
+        const color = p.color || '#D4AF37';
+        popup(coords, `<div style="${pStyle}border:1px solid ${color}66;">
+          <div style="color:${color};font-size:13px;font-weight:700;letter-spacing:0.08em;margin-bottom:5px;">${escapeHtml(p.naam || 'NPK Wegwijzer')}</div>
+          <div style="font-size:9px;color:#aaa;margin-bottom:8px;">${escapeHtml(p.speltak || 'Algemeen')} / ${escapeHtml(p.type || geometry.type)}</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;font-size:9px;margin-bottom:8px;">
+            <div><span style="color:#5C5A54;">PLACE</span><br/><span style="color:#E8E6E0;">${escapeHtml(p.plaats || 'Marnewaard')}</span></div>
+            <div><span style="color:#5C5A54;">MIN ZOOM</span><br/><span style="color:#E8E6E0;">${escapeHtml(p.minzoom)}</span></div>
+            <div><span style="color:#5C5A54;">SEARCHABLE</span><br/><span style="color:#E8E6E0;">${p.isSearchable ? 'YES' : 'NO'}</span></div>
+            <div><span style="color:#5C5A54;">VISIBLE</span><br/><span style="color:#E8E6E0;">${escapeHtml(p.zichtbaar || 'Always')}</span></div>
+          </div>
+          <a href="https://www.google.com/maps/@${coords[1]},${coords[0]},17z" target="_blank" style="${linkStyle}color:#D4AF37;border:1px solid rgba(212,175,55,0.4);background:rgba(212,175,55,0.1);">MAP</a>
+        </div>`);
+      });
+    });
 
     // ── Generic hover for clickables ──
-    ['conflict-icons','cctv-dots','eq-circles','sat-dots','fires-heat','gdelt-dots','weather-dots','infra-dots','maritime-dots','choke-dots','news-dots','balloon-dots','rad-dots','ship-dots'].forEach(layer => {
+    ['conflict-icons','cctv-dots','eq-circles','sat-dots','fires-heat','gdelt-dots','weather-dots','infra-dots','maritime-dots','choke-dots','news-dots','balloon-dots','rad-dots','ship-dots','wegwijzer-points','wegwijzer-labels','wegwijzer-polygons','wegwijzer-routes'].forEach(layer => {
       map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer'; });
       map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
     });
@@ -776,6 +857,15 @@ function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightCl
 
   useEffect(() => {
     if (!mapReady) return;
+    setGeo('wegwijzer', activeLayers.wegwijzer && data.wegwijzer ? data.wegwijzer : []);
+    if (activeLayers.wegwijzer && data.wegwijzer?.length) {
+      const map = mapRef.current;
+      if (map) map.flyTo({ center: WEGWIJZER_CENTER, zoom: Math.max(map.getZoom(), 14.5), duration: 1600 });
+    }
+  }, [mapReady, data.wegwijzer, activeLayers.wegwijzer, setGeo]);
+
+  useEffect(() => {
+    if (!mapReady) return;
     // ── CONFLICT ZONES — center-point warning markers ──
     const CONFLICT_ZONES = [
       { label: 'UKRAINE WAR', severity: 'war', lat: 48.5, lng: 31.2 },
@@ -822,6 +912,7 @@ function OsirisMap({ data, activeLayers, onEntityClick, onMouseCoords, onRightCl
     setVis(['ship-dots','ship-label'], activeLayers.maritime);
     setVis(['news-glow','news-dots','news-label'], activeLayers.live_news);
     setVis(['conflict-icons'], activeLayers.conflict_zones !== false);
+    setVis(['wegwijzer-polygons','wegwijzer-polygon-lines','wegwijzer-routes','wegwijzer-points','wegwijzer-labels'], activeLayers.wegwijzer);
 
     setVis(['balloon-dots','balloon-label'], activeLayers.balloons);
     setVis(['rad-glow','rad-dots','rad-label'], activeLayers.radiation);

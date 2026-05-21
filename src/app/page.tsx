@@ -101,6 +101,7 @@ export default function Dashboard() {
     war_alerts: false,
     gps_jamming: false,
     day_night: true,
+    wegwijzer: false,
   });
   const [liveFeedUrl, setLiveFeedUrl] = useState<string | null>(null);
   const [liveFeedName, setLiveFeedName] = useState('');
@@ -320,6 +321,11 @@ export default function Dashboard() {
     if (activeLayers.global_incidents && !layerFetchedRef.current.has('gdelt')) {
       fetchEndpoint('/api/gdelt', d => ({ gdelt: d.events }));
       layerFetchedRef.current.add('gdelt');
+    }
+    // NPK Wegwijzer
+    if (activeLayers.wegwijzer && !layerFetchedRef.current.has('wegwijzer')) {
+      fetchEndpoint('/data/wegwijzer.geojson', d => ({ wegwijzer: d.features || [] }));
+      layerFetchedRef.current.add('wegwijzer');
     }
 
   }, [activeLayers]);

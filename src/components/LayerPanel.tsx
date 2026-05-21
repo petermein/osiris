@@ -6,7 +6,7 @@ import {
   Plane, Satellite, Activity, Globe, Radio, Eye,
   Shield, Sun, AlertTriangle, Camera, Flame, Target,
   CloudLightning, Radiation, Tv, Anchor, Ship,
-  ChevronDown, ChevronUp, ToggleLeft, ToggleRight,
+  ChevronDown, ChevronUp, ToggleLeft, ToggleRight, MapPinned,
 } from 'lucide-react';
 
 interface LayerPanelProps {
@@ -70,6 +70,7 @@ const LAYER_GROUPS = [
     icon: Sun,
     color: '#448AFF',
     layers: [
+      { key: 'wegwijzer', label: 'NPK Wegwijzer', icon: MapPinned, color: '#D4AF37', dataKey: 'wegwijzer' },
       { key: 'day_night', label: 'Day / Night Cycle', icon: Sun, color: '#448AFF', dataKey: '' },
     ],
   },
